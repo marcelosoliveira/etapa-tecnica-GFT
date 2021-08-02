@@ -22,9 +22,9 @@ public class AtletaMain {
 		atletas.sort((d1, d2) -> d2.getDistancia().compareTo(d1.getDistancia()));
 		System.out.println("Ouro: " + atletas.get(0).getNome() + 
 				" - " + atletas.get(0).getPais() + " Resultado: " + atletas.get(0).getDistancia() + "m");
-		System.out.println("Ouro: " + atletas.get(1).getNome() + 
+		System.out.println("Prata: " + atletas.get(1).getNome() + 
 				" - " + atletas.get(1).getPais() + " Resultado: " + atletas.get(1).getDistancia() + "m");
-		System.out.println("Ouro: " + atletas.get(2).getNome() + 
+		System.out.println("Bronze: " + atletas.get(2).getNome() + 
 				" - " + atletas.get(2).getPais() + " Resultado: " + atletas.get(2).getDistancia() + "m");
 		
 		scan.close();
